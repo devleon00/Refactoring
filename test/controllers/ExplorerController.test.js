@@ -28,13 +28,6 @@ describe("Test de metodos ExplorerController", () => {
     });
 
     test("3) Probando metodo 'getExplorersUsernamesByMission()'", () => {
-        const wanted = {
-            name: "Woopa1",
-            githubUsername: "ajolonauta1",
-            score: 1,
-            mission: "node",
-            stacks: ["javascript", "reasonML", "elm"],
-        };
         expect(
             ExplorerController.getExplorersUsernamesByMission("node").length
         ).toBe(10);
