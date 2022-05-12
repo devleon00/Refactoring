@@ -37,7 +37,7 @@ describe("Test de metodos de clase ExplorerService", () => {
     }];
 
     const result = ExplorerService.getExplorersUsernamesByMission(explorer, "node");
-    expect(result[0]).toBe("ajolonauta3");
+    expect(result[0]).toBe("ajolonauta2");
   });
 });
 
